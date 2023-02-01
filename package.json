@@ -10,8 +10,7 @@
     "dev": "npm run publish && node ./dist/index.js",
     "lint": "eslint src/**/*.ts",
     "package": "ncc build --source-map",
-    "publish": "npm run format && npm run build && npm run package",
-    
+    "publish": "npm run format && npm run build && npm run package"
   },
   "keywords": [],
   "author": "",
